@@ -1,0 +1,75 @@
+div.box {
+    width: 308px;
+    height: 272px;
+    color: #333333;
+    background-color: #4A627E;
+    border: 5px solid #6D86A1;
+    border-radius: 21px;
+    float: left;
+    margin: 50px;
+    overflow: hidden;
+}
+
+.box-label {
+    color: white;
+    margin: 0 auto;
+    margin-top: 21px;
+    background-color: #0E1F4D;
+    width: 254px;
+    height: 76px;
+    text-align: center;
+    border: 5px solid #FFFFFF;
+    border-radius: 8px;
+    font-size: 22.0pt;
+    font-weight: 400;
+    padding-top: 15px;
+}
+
+.box-desc {
+    width: 263px;
+    height: 110px;
+    font-family: Arial;
+    font-size: 14.0pt;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 0 auto;
+    margin-top: 32px;
+}
+
+.box-container {
+    margin-left: 60px;
+    min-height: 100%;
+    position: relative;
+    display: block;
+    float: left;
+}
+
+.box span {
+    float: right;
+    font-family: Arial;
+    font-size: 10.0pt;
+    font-weight: 400;
+    color: #000000;
+    margin-right: 25px;
+    margin-top: -20px;
+}
+
+.box-button {
+    padding-top: 10px;
+    margin-right: 114px;
+    float: left;
+    width: 212px;
+    height: 59px;
+    font-family: Bebas Neue;
+    font-size: 18.0pt;
+    font-weight: 400;
+    text-align:center;
+    color: #FFFFFF;
+    background-color: #0E1F4D;
+    border: 5px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+#end{
+    margin-right: 0 !important;
+}

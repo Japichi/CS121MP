@@ -1,0 +1,88 @@
+h1.support-heading {
+    width: 405px;
+    font-size: 20.0pt;
+    font-weight: 400;
+    text-align: right;
+    color: #FFFFFF;
+    background-color: #666666;
+    padding-right: 20px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-top: 11px;
+}
+
+#signin-button {
+    width: 132px;
+    height: 53px;
+    opacity: 0.85;
+    font-family: Arial;
+    font-size: 18.0pt;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #11338E;
+    border: 2px solid #CCCCCC;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.signin-notice-form-container {
+    width: 870px;
+    height: 152px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #5B748F;
+    border: 2px solid #2B435F;
+    display: block;
+    float: left;
+    margin-left: 90px;
+    margin-top: 20px;
+}
+
+.signin-notice {
+    font-family: Arial;
+    font-size: 16.0pt;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.support-ticket-details {
+    float: right;
+    display: block;
+    width: 300px;
+    height: 295px;
+    margin-top: -10px;
+    margin-right: 30px;
+}
+
+#what-is-a {
+    width: 220px;
+    height: 56px;
+    font-family: 'Arial';
+    font-size: 36.0pt;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#support-ticket {
+    margin-top: -30px;
+    width: 224px;
+    height: 29px;
+    font-family: 'Arial';
+    font-size: 18.0pt;
+    font-weight: 700;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#support-details {
+    width: 266px;
+    height: 181px;
+    font-family: 'Arial';
+    font-size: 12.0pt;
+    font-weight: 400;
+    line-height: 23px;
+    color: #FFFFFF;
+}

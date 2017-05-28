@@ -1,0 +1,34 @@
+.signin-notice-form-container {
+    width: 1195px;
+    height: 152px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #5B748F;
+    border: 2px solid #2B435F;
+    display: block;
+    margin: 0 auto;
+}
+
+.signin-notice {
+    margin-top: 35px;
+    font-family: Arial;
+    font-size: 16.0pt;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#signin-button {
+    width: 132px;
+    height: 53px;
+    opacity: 0.85;
+    font-family: Arial;
+    font-size: 18.0pt;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #11338E;
+    border: 2px solid #CCCCCC;
+    border-radius: 4px;
+    cursor: pointer;
+}

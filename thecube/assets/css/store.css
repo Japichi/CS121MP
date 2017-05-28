@@ -1,0 +1,188 @@
+#big-container-featured-recommended {
+    width: 1192px;
+    height: 564px;
+    margin: 0 auto;
+    margin-top: 45px;
+    margin-bottom: 10px;
+}
+
+#container-featured {
+    float: left;
+    width: 832px;
+    height: 564px;
+}
+
+#container-recommended {
+    float: right;
+    width: 347px;
+    height: 564px;
+}
+
+.image-with-caption .container-caption {
+    width: 829px;
+    height: 98px;
+    background-color: #000000;
+    opacity: 0.68;
+    font-family: Arial;
+    font-size: 10.0pt;
+    margin-top: -98px;
+}
+
+.container-caption .caption-title {
+    width: 811px;
+    height: 82px;
+    font-family: Arial;
+    font-size: 12.0pt;
+    font-weight: 700;
+    line-height: 22px;
+    color: #FFFFFF;
+    padding-top: 11px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 13px;
+}
+
+.container-caption .caption-description {
+    font-family: Arial;
+    font-size: 12.0pt;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.heading {
+    padding: 0;
+    margin-bottom: 15px;
+    font-family: Bebas Neue;
+    font-size: 26.0pt;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+#container-recommended ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#container-recommended ul li {
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: text-top;
+}
+
+#container-recommended ul li>img {
+    box-shadow: 6px 7px 5px 0px #000000;
+}
+
+.browse-all-button {
+    margin-top: 5px;
+    font-family: Arial;
+    font-size: 11.0pt;
+    font-weight: 400;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 4px;
+    padding: 4px;
+    float: right;
+}
+
+#container-wishlist {
+    width: 1195px;
+    height: 207px;
+    margin: 0 auto;
+    margin-bottom: 65px;
+}
+
+.signin-notice-form-container {
+    width: 1195px;
+    height: 152px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #5B748F;
+    border: 2px solid #2B435F;
+    display: block;
+    float: left;
+}
+
+.signin-notice {
+    margin-top: 35px;
+    font-family: Arial;
+    font-size: 16.0pt;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#signin-button {
+    width: 132px;
+    height: 53px;
+    opacity: 0.85;
+    font-family: Arial;
+    font-size: 18.0pt;
+    font-weight: 400;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #11338E;
+    border: 2px solid #CCCCCC;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.container-list-of-games {
+    width: 823px;
+    margin-left: 75px;
+}
+
+.container-list-of-games ul {
+    list-style: none;
+}
+
+.container-list-of-games ul li.game-item {
+    margin-left: -40px;
+    margin-bottom: 18px;
+    width: 823px;
+    height: 154px;
+    background-color: #1A3C67;
+}
+
+.container-list-of-games ul li.game-item:hover {
+    background-color: #122856;
+}
+
+.container-list-of-games ul li.game-item>img {
+    float: left;
+    width: 265px;
+    height: 154px;
+}
+
+.container-list-of-games ul li.game-item>.game-title {
+    position: relative;
+    left: 30px;
+    top: 15px;
+    vertical-align: top;
+    font-family: Arial;
+    font-size: 18.0pt;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.container-list-of-games ul li.game-item>.game-tags {
+    position: relative;
+    left: 30px;
+    top: 30px;
+    font-family: Arial;
+    font-size: 14.0pt;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.container-list-of-games ul li.game-item>.game-price {
+    position: relative;
+    left: 30px;
+    top: 50px;
+    font-family: Arial;
+    font-size: 20.0pt;
+    font-weight: 400;
+    color: #6EFFFE;
+}

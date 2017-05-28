@@ -1,0 +1,48 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    padding: 0;
+    margin: 0;
+    font-family: 'Bebas Neue2';
+    background-color: #1F456F;
+    color: white;
+}
+
+@font-face {
+    font-family: 'Bebas Neue2';
+    src: url('bebasneue-webfont-webfont.woff2') format('woff2'), url('bebasneue-webfont-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*CAROUSEL*/
+
+* {
+    box-sizing: border-box
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    top: 125%;
+    width: 100%;
+    height: 126px;
+    background-color: black;
+}
+
+footer span {
+    font-family: Arial;
+    font-size: 10.0pt;
+    font-weight: 400;
+}
+
+.footer-container {
+    width: 200px;
+    margin-left: 110px;
+    margin-top: 30px;
+}
+

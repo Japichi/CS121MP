@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:element name="gameDatabase">
+	<xs:complexType>
+		<xs:sequence>
+			<xs:element name="game" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:sequence>
+						<xs:element name="gameID" type="xs:string"/>
+						<xs:element name="gameTitle" type="xs:string"/> 
+						<xs:element name="gamePrice" type="xs:decimal">
+								<xs:simpleType>
+									<xs:restriction base="xs:decimal">
+											<xs:minInclusive value="0"/>
+											<xs:totalDigits value="5"/>
+									</xs:restriction>
+								</xs:simpleType>
+						</xs:element>		
+						<xs:element name="gamePoster" type="xs:string"/>
+						<xs:element name="trailer" type="xs:string"/>
+						<xs:element name="gameDescription" type="xs:string">
+								<xs:simpleType>
+								<xs:restriction base="xs:string">
+									<xs:minLength value="10"/>
+									<xs:maxLength value="50"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+							<xs:element name="genre" type="xs:string" maxOccurs="unbounded">
+								<xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:minLength value="3"/>
+										<xs:maxLength value="30"/>
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:element>
+						<xs:element name="rating" type="xs:decimal">
+							<xs:simpleType>
+									<xs:restriction base="xs:decimal">
+										<xs:minInclusive value="0"/>
+										<xs:maxInclusive value="10"/>
+									</xs:restriction>
+								</xs:simpleType>
+						</xs:element>
+						<xs:element name="releaseDate" type="xs:date"/>	
+						<xs:element name="userTag" type="xs:string" maxOccurs="unbounded">
+							<xs:simpleType>
+								<xs:restriction base="xs:string">
+										<xs:minLength value="1"/>
+										<xs:maxLength value="30"/>
+								</xs:restriction>
+							</xs:simpleType>
+						</xs:element>
+						<xs:element name="aboutTheGame">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="about" type="xs:string"/>
+									<xs:sequence maxOccurs="unbounded">
+										<xs:element name="screenshot" type="xs:string"/>
+									</xs:sequence>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+						<xs:element name="userReview" minOccurs="1" maxOccurs="unbounded">
+							<xs:complexType>
+								<xs:sequence>
+									<xs:element name="userID" type="xs:string"/>
+									<xs:element name="reviewTitle" type="xs:string"/>
+									<xs:element name="displayName" type="xs:string">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="1"/>
+												<xs:maxLength value="30"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:element>
+									<xs:element name="date" type="xs:date"/>
+									<xs:element name="review" type="xs:string">
+										<xs:simpleType>
+											<xs:restriction base="xs:string">
+												<xs:minLength value="2"/>
+												<xs:maxLength value="150"/>
+											</xs:restriction>
+										</xs:simpleType>
+									</xs:element>
+								</xs:sequence>
+							</xs:complexType>
+						</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

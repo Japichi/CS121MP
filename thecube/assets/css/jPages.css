@@ -1,0 +1,35 @@
+.holder {
+    text-align: center;
+	margin: 15px 0;
+}
+
+.holder a {
+	font-size: 32px;
+	cursor: pointer;
+	margin: 0 5px;
+	color: #bbb;
+}
+
+.holder a:hover {
+	color: #fff;
+}
+
+.holder a.jp-previous { margin-right: 15px; }
+.holder a.jp-next { margin-left: 15px; }
+
+.holder a.jp-current, a.jp-current:hover { 
+	color: skyblue;
+	font-weight: bold;
+}
+
+.holder a.jp-disabled, a.jp-disabled:hover {
+	color: #333;
+}
+
+.holder a.jp-current, a.jp-current:hover,
+.holder a.jp-disabled, a.jp-disabled:hover {
+	cursor: default; 
+	background: none;
+}
+
+.holder span { margin: 0 5px; }

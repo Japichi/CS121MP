@@ -1,0 +1,52 @@
+.carousel-container {
+    background-color: #102338;
+    margin-top: 100px;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.carousel-container h1 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bebas Neue';
+    font-size: 36.0pt;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.carousel-container h2 {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial';
+    font-size: 14.0pt;
+    font-weight: 400;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.carousel-content-container {
+    position:absolute;
+    top: 245px;
+    left: 500px;
+    height: 100%;
+    width: 100%;
+}
+
+.carousel-content{
+    width: 771px;
+}
+
+.carousel-featured{
+    width: 832px;
+}
+
+.slick-prev{
+    left: 10px !important;
+    z-index: 2;
+}
+
+.slick-next{
+    right: 10px !important;
+    z-index: 2;
+}
